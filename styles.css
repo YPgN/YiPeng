@@ -1,6 +1,7 @@
-
 body {
     margin: 0;
     background: rgb(238, 226, 200);
     text-align: center;
+    background-image: url("file:///C:/Users/User/OneDrive/Im%C3%A1genes/Saved%20Pictures/Space-4K.jpg");
+        background-position: center; background-size: 1500px; background-repeat: no-repeat;
 }
