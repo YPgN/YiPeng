@@ -2,6 +2,6 @@ body {
     margin: 0;
     background: rgb(238, 226, 200);
     text-align: center;
-    background-image: url(YPgN/YiPeng/Space-4K.jpg);
+    background-image: url("https://github.com/YPgN/YiPeng/blob/site/Space-4K.jpg?raw=true");
         background-position: center; background-size: 1500px; background-repeat: no-repeat;
 }
