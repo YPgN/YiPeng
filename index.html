@@ -1,58 +1,95 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NYP'S PORTFOLIO</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YiPeng's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<style>
-  a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: rgb(19, 250, 154);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgb(136, 118, 36);
-    background-color: transparent;
-    text-decoration: red underline;
-  }
-  
-  a:active {
-    color: rgb(39, 133, 20);
-    background-color: transparent;
-    text-decoration: underline;
-  }
-</style>
+
 <body>
-  <p>
-    <p style="position:relative; top:10px; text-align: left; border: 1px; border-style: solid; border-color: rgb(255, 0, 0); padding: 0.1em; background-color: rgb(255, 255, 255); width: 100px;">
-      &nbsp;  <a href="index.html"><img src="https://github.com/YPgN/YiPeng/blob/site/Images/nyp-logo.png?raw=true" alt="NYP Logo" width="80" height="40"></a>
+  <div class="transition transition-3 is-active"></div>
+  <div class="page">
+    <header>
+      <nav>
+        
+        <!-- LOGO -->
+        <a href="#"><img src="https://github.com/YPgN/YiPeng/blob/site/Images/nyp-logo.png?raw=true" alt="YPgN Logo" class="logo" /></a>
+        
+        <!-- MENU -->
+        <ul class="menu">
+          <li class="menu-item is-active" style="pointer-events: none;"><a href="index.html">HOME</a></li>
+          <li class="menu-item"><a href="Database.html">DATABASE</a></li>
+          <li class="menu-item"><a href="Web.html">WEB</a></li>
+          <li class="menu-item"><a href="Security.html">SECURITY</a></li>
+          <li class="menu-item"><a href="Contact.html">CONTACT</a></li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="banner-inner">
+          <!-- TYPEWRITER -->
+          <!-- partial:index.partial.html -->
+          <div class="container py-5">
+            <div class="output" id="output">
+              <h3 class="cursor" style="font-family: 'Gill Sans MT'; color: chartreuse; font-family: 'Courier New';"></h3>
+              <p style="font-family: 'Courier New'; color: rgb(255, 255, 255);"></p>
+            </div>
+          </div>
+          <!-- partial -->
+          
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./typewriter.js"></script>
+
+        </div>
+      </section>
+<section class="header container fullscreen" id="home" style="height: 643px">
+  <div class="content-resizer" style="top: 221.5px;">
+    <h1 class="main-title" style="font-family: Georgia; position: relative; bottom: 100px; font-size: 60px;"><u>YPgN</u></h1>
+    <p style="color: white; font-family: Calibri; text-align: center; position: relative; bottom: 100px;">Welcome to My Portfolio</p>
+    <p class="slogon">/*
+      <span class="typed-quotes">THIS IS THE QUOTE</span>
+      <span class="typed-cursor">|</span> */
     </p>
-    <span style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-bottom: lawngreen solid;">
-      <a href="index.html">HOME</a>
-    </span>
-  </p>
-  <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">
-    <a href="Database.html">DATABASE</a>
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="Web.html">WEB</a>
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="Security.html">SECURITY</a>
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <a href="Contact.html">CONTACT</a>
-  </p>
-  <p style="font-size:50px; color:rgb(255, 255, 255); font-weight:bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; border: outset; border-width: 2px; border-color: mediumseagreen;">
-    WELCOME
-    <span style="color: mediumseagreen">!</span>
-  </p>
-  <p style="color: rgb(255, 255, 255); font-family:cursive; position: relative; bottom: 45px; font-size: 13px;">THIS IS MY PORTFOLIO</p>
+  </div>
+</section>
+
+      <!-- NEW TYPEWRITER -->
+      
+      
+      <!-- <section class="header container fullscreen" id="home" style="height: 643px;">
+        <div class="content-resizer" style="top: 221.5px;">
+          <h2>typora</h2>
+          <p class="slogon">/* 
+            <span class="typed-quotes">I think this is</span>
+            <span class="typed-cursor">|</span> */
+          </p>
+        </div>
+      </section>
+
+      <div class="content-resizer" style="top: 221.5px;">
+        <h2>typora</h2>
+        <p class="slogon">"/* "
+          <span class="typed-quotes">...</span>
+          <span class="typed-cursor">|</span> " */"
+        </p>
+      </div> -->
+      
+      
+      <!-- PAGE-CONTENT -->
+      <section class="page-content">
+        <div class="content-liner">
+          <h2 class="underline">HOME PAGE</h2>
+          <p>This is the Main Page</p>
+          <p>This is the Main Page</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+
 </body>
 </html>
