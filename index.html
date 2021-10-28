@@ -4,92 +4,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YiPeng's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="box_2.css">
 </head>
 
 <body>
-  <div class="transition transition-3 is-active"></div>
-  <div class="page">
-    <header>
-      <nav>
-        
-        <!-- LOGO -->
-        <a href="#"><img src="https://github.com/YPgN/YiPeng/blob/site/Images/YPgN-logo.png?raw=true" alt="YPgN Logo" class="logo" /></a>
-        
-        <!-- MENU -->
-        <ul class="menu">
-          <li class="menu-item is-active" style="pointer-events: none;"><a href="index.html">HOME</a></li>
-          <li class="menu-item"><a href="Database.html">DATABASE</a></li>
-          <li class="menu-item"><a href="Web.html">WEB</a></li>
-          <li class="menu-item"><a href="Security.html">SECURITY</a></li>
-          <li class="menu-item"><a href="Contact.html">CONTACT</a></li>
-        </ul>
+  <!-- +TRANSITION_1 -->
+  <header>
+    <!-- NAV -->
+    <nav>
+      <!-- LOGO -->
+      <a href="#">
+        <img src="https://github.com/YPgN/YiPeng/blob/site/Images/YPgN-logo.png?raw=true" alt="YPgN Logo" class="logo" />
+      </a>
+      <!-- MENU -->
+      <ul class="menu">
+        <li class="menu-item is-active" style="pointer-events: none;"><a href="index.html">HOME</a></li>
+        <li class="menu-item"><a href="Database.html">DATABASE</a></li>
+        <li class="menu-item"><a href="Web.html">WEB</a></li>
+        <li class="menu-item"><a href="Security.html">SECURITY</a></li>
+        <li class="menu-item"><a href="Contact.html">CONTACT</a></li>
+      </ul>
+      <!-- MENU (UNTIL HERE) -->
+    </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="banner-inner">
 
-      </nav>
-    </header>
-
-    <main>
-      <section class="banner">
-        <div class="banner-inner">
-          <!-- TYPEWRITER -->
-          <!-- partial:index.partial.html -->
-          <div class="container py-5">
-            <div class="output" id="output">
-              <h3 class="cursor" style="font-family: 'Gill Sans MT'; color: chartreuse; font-family: 'Courier New';"></h3>
-              <p style="font-family: 'Courier New'; color: rgb(255, 255, 255);"></p>
-            </div>
-          </div>
-          <!-- partial -->
-          
-          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./typewriter.js"></script>
-
-        </div>
-      </section>
-<section class="header container fullscreen" id="home" style="height: 643px">
-  <div class="content-resizer" style="top: 221.5px;">
-    <h1 class="main-title" style="font-family: Georgia; position: relative; bottom: 100px; font-size: 60px;"><u>YPgN</u></h1>
-    <p style="color: white; font-family: Calibri; text-align: center; position: relative; bottom: 100px;">Welcome to My Portfolio</p>
-    <p class="slogon">/*
-      <span class="typed-quotes">THIS IS THE QUOTE</span>
-      <span class="typed-cursor">|</span> */
-    </p>
-  </div>
-</section>
-
-      <!-- NEW TYPEWRITER -->
-      
-      
-      <!-- <section class="header container fullscreen" id="home" style="height: 643px;">
-        <div class="content-resizer" style="top: 221.5px;">
-          <h2>typora</h2>
-          <p class="slogon">/* 
-            <span class="typed-quotes">I think this is</span>
-            <span class="typed-cursor">|</span> */
+        <!-- TYPEWRITER (1) -->
+        <!-- partial:index.partial.html -->
+        <div class="output" id="output">
+          <h3 style="font-family: 'Gill Sans MT'; color: rgb(255, 0, 0); font-family: 'Courier New';">
+          </h3>
+          <p style="font-family: 'Courier New'; color: rgb(67, 53, 255);">
           </p>
         </div>
-      </section>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./typewriter.js">
+        </script>
+        <!-- TYPEWRITE (1) (END) -->
+      </div>
+    </section>
 
+    <!-- HEADER (TYPEWRITER+TEXT) -->
+    <section class="header container fullscreen" id="home">
       <div class="content-resizer" style="top: 221.5px;">
-        <h2>typora</h2>
-        <p class="slogon">"/* "
-          <span class="typed-quotes">...</span>
-          <span class="typed-cursor">|</span> " */"
+        <!-- NOT PART OF TYPEWRITER -->
+        <h1 class="main-title" style="font-family: Georgia; position: relative; bottom: 100px; font-size: 60px;">
+          <u>YPgN</u>
+        </h1>
+        <p style="color: white; font-family: Calibri; text-align: center; position: relative; bottom: 100px;">
+          Welcome to My Portfolio
         </p>
-      </div> -->
-      
-      
-      <!-- PAGE-CONTENT -->
-      <section class="page-content">
-        <div class="content-liner">
-          <h2 class="underline">HOME PAGE</h2>
-          <p>This is the Main Page</p>
-          <p>This is the Main Page</p>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <script src="main.js"></script>
-
+        <!-- TYPEWRITER (2) -->
+        <p class="slogon">/*
+          <span class="output" id="output">
+            THIS IS THE QUOTE
+          </span>
+          <span class="typed-cursor">|</span>
+          */
+        </p>
+        <!-- TYPEWRITER (2) (END) -->
+      </div>
+    </section>
+    <!-- BOX_2 -->
+    <!-- CHANGE-COLOR -->
+    <div class="change_color">
+      <span class="button--bubble__container">
+        <a href="#" class="button button--bubble">
+          CLICK HERE
+        </a>
+        <!-- BUTTON EFFECT -->
+        <span class="button--bubble__effect-container">
+          <!-- TOP-LEFT BUBBLE -->
+          <span class="circle top-left"></span>
+          <span class="circle top-left"></span>
+          <span class="circle top-left"></span>
+          <!-- MIDDLE-BOX -->
+          <span class="button effect-button"></span>
+          <!-- BOTTOM-RIGHT BUBBLE -->
+          <span class="circle bottom-right"></span>
+          <span class="circle bottom-right"></span>
+          <span class="circle bottom-right"></span>
+        </span>
+      </span>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js'></script><script  src="box_2.js"></script>
+    <!-- BOX_2 (UNTIL HERE) -->
+  </main>
 </body>
 </html>
