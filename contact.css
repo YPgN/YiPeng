@@ -145,7 +145,7 @@ main {
 /* BANNER EDIT */
 main .banner {
     position: relative;
-    background-image: url("file:///C:/Users/User/OneDrive/Escritorio/PROJECTS/WEB-PAGE/PROJECTS/Project-1/PORTFOLIO/Images/Contact.jpg");
+    background-image: url("https://github.com/YPgN/YiPeng/blob/site/Images/Contact.jpg?raw=true");
     min-height: 500px;
     display: flex;
     align-items: center;
