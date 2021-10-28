@@ -4,6 +4,11 @@
     --dark: #212121;
 }
 
+/* PAGE MARGIN */
+html {
+  margin-bottom: 50%;
+}
+
 /* GENERAL EDIT */
 * {
     margin: 0;
@@ -94,17 +99,6 @@ nav {
     max-height: 40px;
 }
 
-/* {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    height: 70px;
-    padding-top: 15px;
-    z-index: 10;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-} */
-
 /* logo EDIT */
 nav .logo {
     width: 75px;
@@ -151,7 +145,7 @@ main {
 /* BANNER EDIT */
 main .banner {
     position: relative;
-    background-image: url("https://github.com/YPgN/YiPeng/blob/site/Images/pizzeria-sant-cugat-a-domicilio-ae934bee.jpeg?raw=true");
+    background-image: url("https://github.com/YPgN/YiPeng/blob/site/Images/Pizza_1.jpeg?raw=true");
     min-height: 500px;
     display: flex;
     align-items: center;
@@ -168,7 +162,7 @@ main .banner:after {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 main .banner .banner-inner {
@@ -177,7 +171,7 @@ main .banner .banner-inner {
 }
 
 main .banner h1 {
-    color: #FFF;
+    color: rgb(179, 0, 0);
     font-size: 72px;
     text-align: center;
 }
@@ -241,91 +235,12 @@ main .main-title {
     text-decoration: underline;
 }
 
-/* TYPEWRITER TYPORA */
-.typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink .7s infinite;
-    -moz-animation: blink .7s infinite;
-    animation: blink .7s infinite;
-}
-
-.typed-cursor {opacity:1;-webkit-animation:blink .7s infinite;-moz-animation:blink .7s infinite;animation:blink .7s infinite}
-
-
-@font-face {
-    font-family:'pt serif';
-    font-style:normal;
-    font-weight:400;
-    src:local('PT Serif'),local('PTSerif-Regular'),url(pt-serif.woff2) format('woff2')
-}
-.typed-cursor {
-    opacity:1;
-    -webkit-animation:blink .7s infinite;
-    -moz-animation:blink .7s infinite;
-    animation:blink .7s infinite
-}
-@keyframes blink {
-    0% {opacity:1}
-    50%{opacity:0}
-    100%{opacity:1}
-}
-@-webkit-keyframes blink {
-    0%{opacity:1}
-    50%{opacity:0}
-    100%{opacity:1}
-}
-@-moz-keyframes blink {
-    0%{opacity:1}
-    50%{opacity:0}
-    100%{opacity:1}
-}
-
-.header .content-resizer {
-    padding-top:70px
-}
-
-.content-resizer {
-    position:absolute;
-    width:100%;
-    top:200px;
-    min-height:200px
-}
-.slogon {
-    font-family:raleway,century gothic,texgyreadventor,sans-serif;
-    font-size:12px;font-weight:500;line-height:22px;
-    letter-spacing:6px;
-    text-transform:uppercase;
-    color:#999;
-    text-align:center
-}
-.slogon strong {
-    color:#555;
-    font-weight:bolder
-}
-.slogon a {
-    cursor:test
-}
-
-.slider .slogon {
-    margin-top:-10px
-}
-
-.scroll-down-div {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    color:#4d4d4d;
-    cursor:pointer;
-    height:32px;
-    font-size:18px
-}
-
 /* HOVER */
 * {
     box-sizing: border-box;
   }
   
-  div {
+  .change_color {
     display: block;
     height: 100%;
     -webkit-animation: hue-rotate 10s linear infinite;
@@ -464,3 +379,110 @@ main .main-title {
       filter: hue-rotate(360deg);
     }
   }
+
+
+
+  
+/* CHANGE OF COLOR (FROM "button-bubble-effect") */
+.menu {
+  display: block;
+  height: 100%;
+  -webkit-animation: hue-rotate 10s linear infinite;
+          animation: hue-rotate 10s linear infinite;
+}
+
+@-webkit-keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.logo {
+  display: block;
+  height: 100%;
+  -webkit-animation: hue-rotate 10s linear infinite;
+          animation: hue-rotate 10s linear infinite;
+}
+
+@keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* BOX */
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.pulse {
+  --color: #807691;
+  --hover: #9c77e0;
+}
+
+/* HOVER COLOR */
+.pulse {
+  color: var(--color);
+  transition: 0.25s;
+}
+.pulse:hover, .pulse:focus {
+  border-color: var(--hover);
+  color: rgb(221, 199, 241);
+}
+
+/* POSITION */
+/* body {
+  color: #fff;
+  background: #17181c;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+} */
+
+/* BUTTON STYLE */
+.pulse {
+  background: none;
+  border: 3px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  font: 300 1em "Fira Sans", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  background: #17181c;
+  justify-content: center;
+}
