@@ -5,8 +5,7 @@ var i = 0,
     isParagraph = false;
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
-var textArray = [
-  "Who do You Think I am?|You are right, I am Your Boss", 
+var textArray = [ 
   "What do you call a fake noodle?|An Impasta", 
   "Why shouldn't you write with a broken pencil?|Because it's pointless",
   "What's brown and sticky?|A stick",
